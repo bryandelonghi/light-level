@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="S;HZXTXvb9UX*f6vZcSG" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="k(7~F%,67[q6]I6a=lm6"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="9Iyh$#;Ub#y+4k^{},ZV"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="~%Mq=!!FmN%ysz(m#z5["></block></value><value name="B"><shadow type="math_number" id="~z9ARI4M{[96F-_pX`L?"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="d=A!12UlvuA0QHuh~-sM"><field name="LEDS">`
-        # # # # # 
-        # # # # # 
-        # # # # # 
-        # # # # # 
-        # # # # #
-        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="uu!DBMyd*~F3H]=]OaT,"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="S;HZXTXvb9UX*f6vZcSG" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="k(7~F%,67[q6]I6a=lm6"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="9Iyh$#;Ub#y+4k^{},ZV"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="~%Mq=!!FmN%ysz(m#z5["></block></value><value name="B"><shadow type="math_number" id="~z9ARI4M{[96F-_pX`L?"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="uu!DBMyd*~F3H]=]OaT,"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
         . . . . . 
         . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="d=A!12UlvuA0QHuh~-sM"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
         `</field></block></statement></block></statement></block></xml>
